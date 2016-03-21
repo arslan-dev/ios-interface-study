@@ -14,6 +14,7 @@
 		F5DDF2CA1C9CA0A500B41B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DDF2C81C9CA0A500B41B78 /* LaunchScreen.storyboard */; };
 		F5DDF2D51C9CA0A500B41B78 /* TestAppDelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2D41C9CA0A500B41B78 /* TestAppDelTests.swift */; };
 		F5DDF2E01C9CA0A500B41B78 /* TestAppDelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2DF1C9CA0A500B41B78 /* TestAppDelUITests.swift */; };
+		F5FAE0791C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F5DDF2DB1C9CA0A500B41B78 /* TestAppDelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppDelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DDF2DF1C9CA0A500B41B78 /* TestAppDelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppDelUITests.swift; sourceTree = "<group>"; };
 		F5DDF2E11C9CA0A500B41B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithLeftmostIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F5DDF2BF1C9CA0A500B41B78 /* AppDelegate.swift */,
 				F5DDF2C11C9CA0A500B41B78 /* ViewController.swift */,
+				F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */,
 				F5DDF2C31C9CA0A500B41B78 /* Main.storyboard */,
 				F5DDF2C61C9CA0A500B41B78 /* Assets.xcassets */,
 				F5DDF2C81C9CA0A500B41B78 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				F5DDF2C21C9CA0A500B41B78 /* ViewController.swift in Sources */,
 				F5DDF2C01C9CA0A500B41B78 /* AppDelegate.swift in Sources */,
+				F5FAE0791C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				F5DDF2E61C9CA0A500B41B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5DDF2E71C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				F5DDF2E91C9CA0A500B41B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5DDF2EA1C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				F5DDF2EC1C9CA0A500B41B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
