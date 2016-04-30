@@ -59,7 +59,7 @@
         <!--Components View Controller-->
         <scene sceneID="orN-Ra-Foa">
             <objects>
-                <viewController id="Rmz-bN-UX6" customClass="ComponentsViewController" customModule="TestAppDel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rmz-bN-UX6" customClass="ComponentsViewController" customModule="Components" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ESx-6h-A4f"/>
                         <viewControllerLayoutGuide type="bottom" id="mvd-E8-Rjm"/>

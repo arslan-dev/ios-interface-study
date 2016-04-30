@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F56B8ADF1CA67CC5007AB72E /* Components.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56B8ADE1CA67CC5007AB72E /* Components.storyboard */; };
+		F54AC2061CD4BD4700D2F307 /* DynamicStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC2051CD4BD4700D2F307 /* DynamicStackViewController.swift */; };
 		F5DDF2C01C9CA0A500B41B78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2BF1C9CA0A500B41B78 /* AppDelegate.swift */; };
 		F5DDF2C21C9CA0A500B41B78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2C11C9CA0A500B41B78 /* ViewController.swift */; };
 		F5DDF2C51C9CA0A500B41B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DDF2C31C9CA0A500B41B78 /* Main.storyboard */; };
@@ -15,8 +15,6 @@
 		F5DDF2CA1C9CA0A500B41B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DDF2C81C9CA0A500B41B78 /* LaunchScreen.storyboard */; };
 		F5DDF2D51C9CA0A500B41B78 /* AutoLayoutStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2D41C9CA0A500B41B78 /* AutoLayoutStudyTests.swift */; };
 		F5DDF2E01C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2DF1C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift */; };
-		F5E00CFD1CA99A9C009E4F76 /* ComponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E00CFC1CA99A9C009E4F76 /* ComponentsViewController.swift */; };
-		F5E76D2E1CA3E6A70059B52A /* DynamicStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E76D2D1CA3E6A70059B52A /* DynamicStackViewController.swift */; };
 		F5FAE0791C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F56B8ADE1CA67CC5007AB72E /* Components.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Components.storyboard; sourceTree = "<group>"; };
+		F54AC2051CD4BD4700D2F307 /* DynamicStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicStackViewController.swift; sourceTree = "<group>"; };
 		F5DDF2BC1C9CA0A500B41B78 /* AutoLayoutStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DDF2BF1C9CA0A500B41B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5DDF2C11C9CA0A500B41B78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,8 +50,6 @@
 		F5DDF2DB1C9CA0A500B41B78 /* AutoLayoutStudy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutStudy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DDF2DF1C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutStudyUITests.swift; sourceTree = "<group>"; };
 		F5DDF2E11C9CA0A500B41B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5E00CFC1CA99A9C009E4F76 /* ComponentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentsViewController.swift; sourceTree = "<group>"; };
-		F5E76D2D1CA3E6A70059B52A /* DynamicStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicStackViewController.swift; path = ../DynamicStackViewController.swift; sourceTree = "<group>"; };
 		F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithLeftmostIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,13 +104,11 @@
 				F5DDF2BF1C9CA0A500B41B78 /* AppDelegate.swift */,
 				F5DDF2C11C9CA0A500B41B78 /* ViewController.swift */,
 				F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */,
-				F5E76D2D1CA3E6A70059B52A /* DynamicStackViewController.swift */,
+				F54AC2051CD4BD4700D2F307 /* DynamicStackViewController.swift */,
 				F5DDF2C61C9CA0A500B41B78 /* Assets.xcassets */,
 				F5DDF2C81C9CA0A500B41B78 /* LaunchScreen.storyboard */,
 				F5DDF2CB1C9CA0A500B41B78 /* Info.plist */,
 				F5DDF2C31C9CA0A500B41B78 /* Main.storyboard */,
-				F56B8ADE1CA67CC5007AB72E /* Components.storyboard */,
-				F5E00CFC1CA99A9C009E4F76 /* ComponentsViewController.swift */,
 			);
 			path = AutoLayoutStudy;
 			sourceTree = "<group>";
@@ -243,7 +237,6 @@
 			files = (
 				F5DDF2CA1C9CA0A500B41B78 /* LaunchScreen.storyboard in Resources */,
 				F5DDF2C71C9CA0A500B41B78 /* Assets.xcassets in Resources */,
-				F56B8ADF1CA67CC5007AB72E /* Components.storyboard in Resources */,
 				F5DDF2C51C9CA0A500B41B78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,9 +264,8 @@
 			files = (
 				F5DDF2C21C9CA0A500B41B78 /* ViewController.swift in Sources */,
 				F5DDF2C01C9CA0A500B41B78 /* AppDelegate.swift in Sources */,
-				F5E76D2E1CA3E6A70059B52A /* DynamicStackViewController.swift in Sources */,
+				F54AC2061CD4BD4700D2F307 /* DynamicStackViewController.swift in Sources */,
 				F5FAE0791C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift in Sources */,
-				F5E00CFD1CA99A9C009E4F76 /* ComponentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
