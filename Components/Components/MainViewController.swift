@@ -9,5 +9,11 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
+    @IBOutlet weak var art: UIImageView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        art.image = art.image!.imageWithRenderingMode(.AlwaysTemplate)
+    }
 }

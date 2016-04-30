@@ -8,13 +8,7 @@
 
 import UIKit
 
-class MenuViewController: UITableViewController {
-    @IBOutlet var menuTableView: UITableView! {
-        didSet {
-            menuTableView.delegate = self
-            menuTableView.bounces = false
-        }
-    }
+class MenuViewController: UIViewController, UITableViewDelegate {
     
     struct Notifications {
         static let MainSelected = "MainSelected"
@@ -22,21 +16,16 @@ class MenuViewController: UITableViewController {
         static let GreenSelected = "GreenSelected"
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let item = indexPath.item
+    @IBAction func mainButtonTapped(sender: AnyObject) {
         let center = NSNotificationCenter.defaultCenter()
-        
-        switch item {
-        case 0:
-            center.postNotification(NSNotification(name: Notifications.MainSelected, object: self))
-        case 1:
-            center.postNotification(NSNotification(name: Notifications.RedSelected, object: self))
-        case 2:
-            center.postNotification(NSNotification(name: Notifications.GreenSelected, object: self))
-        default:
-            print("Unrecognized menu index")
-            return
-        }
+        center.postNotification(NSNotification(name: Notifications.MainSelected, object: self))
     }
-
+    @IBAction func redButtonTapped(sender: AnyObject) {
+        let center = NSNotificationCenter.defaultCenter()
+        center.postNotification(NSNotification(name: Notifications.RedSelected, object: self))
+    }
+    @IBAction func greenButtonTapped(sender: AnyObject) {
+        let center = NSNotificationCenter.defaultCenter()
+        center.postNotification(NSNotification(name: Notifications.GreenSelected, object: self))
+    }
 }

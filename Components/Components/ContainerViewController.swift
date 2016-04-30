@@ -9,6 +9,8 @@
 import UIKit
 
 class ContainerViewController: UIViewController {
+    let leftMenuWidthFull:CGFloat = 230
+    let leftMenuWidthMinimized:CGFloat = 80
     
     var leftViewController: UIViewController? {
         willSet {
@@ -21,7 +23,18 @@ class ContainerViewController: UIViewController {
         }
         didSet {
             self.view!.addSubview(self.leftViewController!.view)
+            let leftViewRect = self.leftViewController!.view.frame
+            self.leftViewController!.view.frame = CGRect(
+                x: leftViewRect.origin.x,
+                y: leftViewRect.origin.y,
+                width: self.leftMenuWidthFull,
+                height: leftViewRect.size.height)
             self.addChildViewController(self.leftViewController!)
+            
+            self.leftViewController!.view.translatesAutoresizingMaskIntoConstraints = false
+            let views = ["menu": self.leftViewController!.view]
+            NSLayoutConstraint.activateConstraints(NSLayoutConstraint.constraintsWithVisualFormat("|-[menu]-|", options: .AlignAllTop, metrics: nil, views: views))
+            NSLayoutConstraint.activateConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-[menu]-|", options: .AlignAllTop, metrics: nil, views: views))
         }
     }
     
@@ -42,17 +55,33 @@ class ContainerViewController: UIViewController {
     
     var menuShown: Bool = false
     
-    @IBAction func swipeRight(sender: UISwipeGestureRecognizer) {
+    @IBAction func swipeRight(sender: UIScreenEdgePanGestureRecognizer) {
         showMenu()
     }
     @IBAction func swipeLeft(sender: UISwipeGestureRecognizer) {
         hideMenu()
     }
+    @IBAction func longPress(sender: UILongPressGestureRecognizer) {
+        var offsetX = sender.locationInView(self.view!).x
+        if (offsetX > leftMenuWidthFull) {
+            offsetX = leftMenuWidthFull
+        } else if (offsetX < leftMenuWidthMinimized) {
+            offsetX = leftMenuWidthMinimized
+        }
+    
+        let leftViewRect = self.leftViewController!.view.frame
+        self.leftViewController!.view.frame = CGRect(
+            x: -leftMenuWidthFull + offsetX,
+            y: leftViewRect.origin.y,
+            width: leftViewRect.width,
+            height: leftViewRect.height
+        )
+    }
     
     func showMenu() {
         UIView.animateWithDuration(0.3, animations: {
             self.rightViewController!.view.frame = CGRect(
-                x: self.view.frame.origin.x + 235,
+                x: self.view.frame.origin.x + self.leftMenuWidthFull,
                 y: self.view.frame.origin.y,
                 width: self.view.frame.width,
                 height: self.view.frame.height
@@ -80,8 +109,7 @@ class ContainerViewController: UIViewController {
         let mainNavigaionController: UINavigationController = storyboard.instantiateViewControllerWithIdentifier("MainNavigationController") as! UINavigationController
         let menuViewController: MenuViewController = storyboard.instantiateViewControllerWithIdentifier("MenuViewController") as! MenuViewController
         
-        self.leftViewController = menuViewController
         self.rightViewController = mainNavigaionController
+        self.leftViewController = menuViewController
     }
-
 }

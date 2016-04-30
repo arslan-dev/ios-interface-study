@@ -16,11 +16,11 @@
 		F54AC2001CD4B54B00D2F307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54AC1FF1CD4B54B00D2F307 /* Main.storyboard */; };
 		F54AC2021CD4B99500D2F307 /* ComponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC2011CD4B99500D2F307 /* ComponentsViewController.swift */; };
 		F54AC2081CD4D01900D2F307 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC2071CD4D01900D2F307 /* ContainerViewController.swift */; };
-		F54AC20A1CD4D93500D2F307 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC2091CD4D93500D2F307 /* MenuViewController.swift */; };
 		F54AC20C1CD4D9C800D2F307 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC20B1CD4D9C800D2F307 /* MainViewController.swift */; };
 		F54AC20E1CD4DB1600D2F307 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC20D1CD4DB1600D2F307 /* RedViewController.swift */; };
 		F54AC2101CD4DB2100D2F307 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC20F1CD4DB2100D2F307 /* GreenViewController.swift */; };
 		F54AC2121CD4DDF600D2F307 /* MainNavigaionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC2111CD4DDF600D2F307 /* MainNavigaionController.swift */; };
+		F54AC2141CD4F3AD00D2F307 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54AC2131CD4F3AD00D2F307 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +56,11 @@
 		F54AC1FF1CD4B54B00D2F307 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F54AC2011CD4B99500D2F307 /* ComponentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentsViewController.swift; sourceTree = "<group>"; };
 		F54AC2071CD4D01900D2F307 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
-		F54AC2091CD4D93500D2F307 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F54AC20B1CD4D9C800D2F307 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F54AC20D1CD4DB1600D2F307 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		F54AC20F1CD4DB2100D2F307 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		F54AC2111CD4DDF600D2F307 /* MainNavigaionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigaionController.swift; sourceTree = "<group>"; };
+		F54AC2131CD4F3AD00D2F307 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +119,11 @@
 				F54AC1DA1CD4AFB100D2F307 /* LaunchScreen.storyboard */,
 				F54AC1DD1CD4AFB100D2F307 /* Info.plist */,
 				F54AC2071CD4D01900D2F307 /* ContainerViewController.swift */,
-				F54AC2091CD4D93500D2F307 /* MenuViewController.swift */,
 				F54AC20B1CD4D9C800D2F307 /* MainViewController.swift */,
 				F54AC20D1CD4DB1600D2F307 /* RedViewController.swift */,
 				F54AC20F1CD4DB2100D2F307 /* GreenViewController.swift */,
 				F54AC2111CD4DDF600D2F307 /* MainNavigaionController.swift */,
+				F54AC2131CD4F3AD00D2F307 /* MenuViewController.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -278,8 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54AC20E1CD4DB1600D2F307 /* RedViewController.swift in Sources */,
+				F54AC2141CD4F3AD00D2F307 /* MenuViewController.swift in Sources */,
 				F54AC2021CD4B99500D2F307 /* ComponentsViewController.swift in Sources */,
-				F54AC20A1CD4D93500D2F307 /* MenuViewController.swift in Sources */,
 				F54AC1D41CD4AFB100D2F307 /* ViewController.swift in Sources */,
 				F54AC2101CD4DB2100D2F307 /* GreenViewController.swift in Sources */,
 				F54AC20C1CD4D9C800D2F307 /* MainViewController.swift in Sources */,
