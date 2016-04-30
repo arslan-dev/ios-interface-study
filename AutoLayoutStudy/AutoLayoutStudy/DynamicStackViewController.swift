@@ -24,6 +24,7 @@ class DynamicStackViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
         // Dispose of any resources that can be recreated.
     }
 
@@ -58,9 +59,6 @@ class DynamicStackViewController: UIViewController {
     
 // MARK: - Private Methods
     private func createEntry() -> UIView {
-        let date = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .ShortStyle, timeStyle: .NoStyle)
-        let number = "\(randomHexQuad())-\(randomHexQuad())-\(randomHexQuad())-\(randomHexQuad())"
-        
         let stack = UIStackView()
         stack.axis = .Horizontal
         stack.alignment = .FirstBaseline
@@ -68,16 +66,24 @@ class DynamicStackViewController: UIViewController {
         stack.spacing = 8
         
         let dateLabel = UILabel()
+        let date = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .ShortStyle, timeStyle: .NoStyle)
         dateLabel.text = date
         dateLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
+        dateLabel.setContentHuggingPriority(251, forAxis: .Horizontal)
+        dateLabel.setContentCompressionResistancePriority(750, forAxis: .Horizontal)
         
         let numberLabel = UILabel()
+        let number = "\(randomHexQuad())-\(randomHexQuad())-\(randomHexQuad())-\(randomHexQuad())"
         numberLabel.text = number
         numberLabel.font = UIFont.preferredFontForTextStyle(UIFontTextStyleHeadline)
+        numberLabel.setContentHuggingPriority(250, forAxis: .Horizontal)
+        numberLabel.setContentCompressionResistancePriority(751, forAxis: .Horizontal)
         
         let deleteButton = UIButton(type: .RoundedRect)
         deleteButton.setTitle("Delete", forState: .Normal)
         deleteButton.addTarget(self, action: #selector(DynamicStackViewController.deleteStackView(_:)), forControlEvents: .TouchUpInside)
+        deleteButton.setContentHuggingPriority(251, forAxis: .Horizontal)
+        deleteButton.setContentCompressionResistancePriority(750, forAxis: .Horizontal)
         
         stack.addArrangedSubview(dateLabel)
         stack.addArrangedSubview(numberLabel)
