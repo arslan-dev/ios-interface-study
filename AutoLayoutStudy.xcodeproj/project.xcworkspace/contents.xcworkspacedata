@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestAppDel.xcodeproj">
+      location = "self:/Users/arslan/Desktop/TestAppDel/AutoLayoutStudy.xcodeproj">
    </FileRef>
 </Workspace>

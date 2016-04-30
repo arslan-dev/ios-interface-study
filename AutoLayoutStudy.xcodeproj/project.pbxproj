@@ -13,8 +13,8 @@
 		F5DDF2C51C9CA0A500B41B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DDF2C31C9CA0A500B41B78 /* Main.storyboard */; };
 		F5DDF2C71C9CA0A500B41B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DDF2C61C9CA0A500B41B78 /* Assets.xcassets */; };
 		F5DDF2CA1C9CA0A500B41B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DDF2C81C9CA0A500B41B78 /* LaunchScreen.storyboard */; };
-		F5DDF2D51C9CA0A500B41B78 /* TestAppDelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2D41C9CA0A500B41B78 /* TestAppDelTests.swift */; };
-		F5DDF2E01C9CA0A500B41B78 /* TestAppDelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2DF1C9CA0A500B41B78 /* TestAppDelUITests.swift */; };
+		F5DDF2D51C9CA0A500B41B78 /* AutoLayoutStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2D41C9CA0A500B41B78 /* AutoLayoutStudyTests.swift */; };
+		F5DDF2E01C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DDF2DF1C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift */; };
 		F5E00CFD1CA99A9C009E4F76 /* ComponentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E00CFC1CA99A9C009E4F76 /* ComponentsViewController.swift */; };
 		F5E76D2E1CA3E6A70059B52A /* DynamicStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E76D2D1CA3E6A70059B52A /* DynamicStackViewController.swift */; };
 		F5FAE0791C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FAE0781C9E9C6200BA85D0 /* ButtonWithLeftmostIcon.swift */; };
@@ -39,18 +39,18 @@
 
 /* Begin PBXFileReference section */
 		F56B8ADE1CA67CC5007AB72E /* Components.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Components.storyboard; sourceTree = "<group>"; };
-		F5DDF2BC1C9CA0A500B41B78 /* TestAppDel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppDel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDF2BC1C9CA0A500B41B78 /* AutoLayoutStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DDF2BF1C9CA0A500B41B78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5DDF2C11C9CA0A500B41B78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5DDF2C41C9CA0A500B41B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5DDF2C61C9CA0A500B41B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5DDF2C91C9CA0A500B41B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5DDF2CB1C9CA0A500B41B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5DDF2D01C9CA0A500B41B78 /* TestAppDelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppDelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5DDF2D41C9CA0A500B41B78 /* TestAppDelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppDelTests.swift; sourceTree = "<group>"; };
+		F5DDF2D01C9CA0A500B41B78 /* AutoLayoutStudy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutStudy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDF2D41C9CA0A500B41B78 /* AutoLayoutStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutStudyTests.swift; sourceTree = "<group>"; };
 		F5DDF2D61C9CA0A500B41B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5DDF2DB1C9CA0A500B41B78 /* TestAppDelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppDelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5DDF2DF1C9CA0A500B41B78 /* TestAppDelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppDelUITests.swift; sourceTree = "<group>"; };
+		F5DDF2DB1C9CA0A500B41B78 /* AutoLayoutStudy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutStudy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DDF2DF1C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutStudyUITests.swift; sourceTree = "<group>"; };
 		F5DDF2E11C9CA0A500B41B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E00CFC1CA99A9C009E4F76 /* ComponentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentsViewController.swift; sourceTree = "<group>"; };
 		F5E76D2D1CA3E6A70059B52A /* DynamicStackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicStackViewController.swift; path = ../DynamicStackViewController.swift; sourceTree = "<group>"; };
@@ -85,9 +85,9 @@
 		F5DDF2B31C9CA0A400B41B78 = {
 			isa = PBXGroup;
 			children = (
-				F5DDF2BE1C9CA0A500B41B78 /* TestAppDel */,
-				F5DDF2D31C9CA0A500B41B78 /* TestAppDelTests */,
-				F5DDF2DE1C9CA0A500B41B78 /* TestAppDelUITests */,
+				F5DDF2BE1C9CA0A500B41B78 /* AutoLayoutStudy */,
+				F5DDF2D31C9CA0A500B41B78 /* AutoLayoutStudyTests */,
+				F5DDF2DE1C9CA0A500B41B78 /* AutoLayoutStudyUITests */,
 				F5DDF2BD1C9CA0A500B41B78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +95,14 @@
 		F5DDF2BD1C9CA0A500B41B78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5DDF2BC1C9CA0A500B41B78 /* TestAppDel.app */,
-				F5DDF2D01C9CA0A500B41B78 /* TestAppDelTests.xctest */,
-				F5DDF2DB1C9CA0A500B41B78 /* TestAppDelUITests.xctest */,
+				F5DDF2BC1C9CA0A500B41B78 /* AutoLayoutStudy.app */,
+				F5DDF2D01C9CA0A500B41B78 /* AutoLayoutStudy.xctest */,
+				F5DDF2DB1C9CA0A500B41B78 /* AutoLayoutStudy.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5DDF2BE1C9CA0A500B41B78 /* TestAppDel */ = {
+		F5DDF2BE1C9CA0A500B41B78 /* AutoLayoutStudy */ = {
 			isa = PBXGroup;
 			children = (
 				F5DDF2BF1C9CA0A500B41B78 /* AppDelegate.swift */,
@@ -116,33 +116,33 @@
 				F56B8ADE1CA67CC5007AB72E /* Components.storyboard */,
 				F5E00CFC1CA99A9C009E4F76 /* ComponentsViewController.swift */,
 			);
-			path = TestAppDel;
+			path = AutoLayoutStudy;
 			sourceTree = "<group>";
 		};
-		F5DDF2D31C9CA0A500B41B78 /* TestAppDelTests */ = {
+		F5DDF2D31C9CA0A500B41B78 /* AutoLayoutStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				F5DDF2D41C9CA0A500B41B78 /* TestAppDelTests.swift */,
+				F5DDF2D41C9CA0A500B41B78 /* AutoLayoutStudyTests.swift */,
 				F5DDF2D61C9CA0A500B41B78 /* Info.plist */,
 			);
-			path = TestAppDelTests;
+			path = AutoLayoutStudyTests;
 			sourceTree = "<group>";
 		};
-		F5DDF2DE1C9CA0A500B41B78 /* TestAppDelUITests */ = {
+		F5DDF2DE1C9CA0A500B41B78 /* AutoLayoutStudyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F5DDF2DF1C9CA0A500B41B78 /* TestAppDelUITests.swift */,
+				F5DDF2DF1C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift */,
 				F5DDF2E11C9CA0A500B41B78 /* Info.plist */,
 			);
-			path = TestAppDelUITests;
+			path = AutoLayoutStudyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5DDF2BB1C9CA0A400B41B78 /* TestAppDel */ = {
+		F5DDF2BB1C9CA0A400B41B78 /* AutoLayoutStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5DDF2E41C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDel" */;
+			buildConfigurationList = F5DDF2E41C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "AutoLayoutStudy" */;
 			buildPhases = (
 				F5DDF2B81C9CA0A400B41B78 /* Sources */,
 				F5DDF2B91C9CA0A400B41B78 /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = TestAppDel;
+			name = AutoLayoutStudy;
 			productName = TestAppDel;
-			productReference = F5DDF2BC1C9CA0A500B41B78 /* TestAppDel.app */;
+			productReference = F5DDF2BC1C9CA0A500B41B78 /* AutoLayoutStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F5DDF2CF1C9CA0A500B41B78 /* TestAppDelTests */ = {
+		F5DDF2CF1C9CA0A500B41B78 /* AutoLayoutStudyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5DDF2E71C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDelTests" */;
+			buildConfigurationList = F5DDF2E71C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "AutoLayoutStudyTests" */;
 			buildPhases = (
 				F5DDF2CC1C9CA0A500B41B78 /* Sources */,
 				F5DDF2CD1C9CA0A500B41B78 /* Frameworks */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				F5DDF2D21C9CA0A500B41B78 /* PBXTargetDependency */,
 			);
-			name = TestAppDelTests;
+			name = AutoLayoutStudyTests;
 			productName = TestAppDelTests;
-			productReference = F5DDF2D01C9CA0A500B41B78 /* TestAppDelTests.xctest */;
+			productReference = F5DDF2D01C9CA0A500B41B78 /* AutoLayoutStudy.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F5DDF2DA1C9CA0A500B41B78 /* TestAppDelUITests */ = {
+		F5DDF2DA1C9CA0A500B41B78 /* AutoLayoutStudyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5DDF2EA1C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDelUITests" */;
+			buildConfigurationList = F5DDF2EA1C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "AutoLayoutStudyUITests" */;
 			buildPhases = (
 				F5DDF2D71C9CA0A500B41B78 /* Sources */,
 				F5DDF2D81C9CA0A500B41B78 /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				F5DDF2DD1C9CA0A500B41B78 /* PBXTargetDependency */,
 			);
-			name = TestAppDelUITests;
+			name = AutoLayoutStudyUITests;
 			productName = TestAppDelUITests;
-			productReference = F5DDF2DB1C9CA0A500B41B78 /* TestAppDelUITests.xctest */;
+			productReference = F5DDF2DB1C9CA0A500B41B78 /* AutoLayoutStudy.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5DDF2B71C9CA0A400B41B78 /* Build configuration list for PBXProject "TestAppDel" */;
+			buildConfigurationList = F5DDF2B71C9CA0A400B41B78 /* Build configuration list for PBXProject "AutoLayoutStudy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5DDF2BB1C9CA0A400B41B78 /* TestAppDel */,
-				F5DDF2CF1C9CA0A500B41B78 /* TestAppDelTests */,
-				F5DDF2DA1C9CA0A500B41B78 /* TestAppDelUITests */,
+				F5DDF2BB1C9CA0A400B41B78 /* AutoLayoutStudy */,
+				F5DDF2CF1C9CA0A500B41B78 /* AutoLayoutStudyTests */,
+				F5DDF2DA1C9CA0A500B41B78 /* AutoLayoutStudyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DDF2D51C9CA0A500B41B78 /* TestAppDelTests.swift in Sources */,
+				F5DDF2D51C9CA0A500B41B78 /* AutoLayoutStudyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5DDF2E01C9CA0A500B41B78 /* TestAppDelUITests.swift in Sources */,
+				F5DDF2E01C9CA0A500B41B78 /* AutoLayoutStudyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		F5DDF2D21C9CA0A500B41B78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5DDF2BB1C9CA0A400B41B78 /* TestAppDel */;
+			target = F5DDF2BB1C9CA0A400B41B78 /* AutoLayoutStudy */;
 			targetProxy = F5DDF2D11C9CA0A500B41B78 /* PBXContainerItemProxy */;
 		};
 		F5DDF2DD1C9CA0A500B41B78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F5DDF2BB1C9CA0A400B41B78 /* TestAppDel */;
+			target = F5DDF2BB1C9CA0A400B41B78 /* AutoLayoutStudy */;
 			targetProxy = F5DDF2DC1C9CA0A500B41B78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,10 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestAppDel/Info.plist;
+				INFOPLIST_FILE = AutoLayoutStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.TestAppDel";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AutoLayoutStudy";
+				PRODUCT_NAME = AutoLayoutStudy;
 			};
 			name = Debug;
 		};
@@ -426,10 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestAppDel/Info.plist;
+				INFOPLIST_FILE = AutoLayoutStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.TestAppDel";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AutoLayoutStudy";
+				PRODUCT_NAME = AutoLayoutStudy;
 			};
 			name = Release;
 		};
@@ -437,11 +437,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TestAppDelTests/Info.plist;
+				INFOPLIST_FILE = AutoLayoutStudyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.TestAppDelTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppDel.app/TestAppDel";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AutoLayoutStudyTests";
+				PRODUCT_NAME = AutoLayoutStudy;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutStudy.app/AutoLayoutStudy";
 			};
 			name = Debug;
 		};
@@ -449,22 +449,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TestAppDelTests/Info.plist;
+				INFOPLIST_FILE = AutoLayoutStudyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.TestAppDelTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppDel.app/TestAppDel";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AutoLayoutStudyTests";
+				PRODUCT_NAME = AutoLayoutStudy;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayoutStudy.app/AutoLayoutStudy";
 			};
 			name = Release;
 		};
 		F5DDF2EB1C9CA0A500B41B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TestAppDelUITests/Info.plist;
+				INFOPLIST_FILE = AutoLayoutStudyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.TestAppDelUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TestAppDel;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AutoLayoutStudyUITests";
+				PRODUCT_NAME = AutoLayoutStudy;
+				TEST_TARGET_NAME = AutoLayoutStudy;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -472,11 +472,11 @@
 		F5DDF2EC1C9CA0A500B41B78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TestAppDelUITests/Info.plist;
+				INFOPLIST_FILE = AutoLayoutStudyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.TestAppDelUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TestAppDel;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.AutoLayoutStudyUITests";
+				PRODUCT_NAME = AutoLayoutStudy;
+				TEST_TARGET_NAME = AutoLayoutStudy;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -484,7 +484,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5DDF2B71C9CA0A400B41B78 /* Build configuration list for PBXProject "TestAppDel" */ = {
+		F5DDF2B71C9CA0A400B41B78 /* Build configuration list for PBXProject "AutoLayoutStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5DDF2E21C9CA0A500B41B78 /* Debug */,
@@ -493,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5DDF2E41C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDel" */ = {
+		F5DDF2E41C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "AutoLayoutStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5DDF2E51C9CA0A500B41B78 /* Debug */,
@@ -502,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5DDF2E71C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDelTests" */ = {
+		F5DDF2E71C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "AutoLayoutStudyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5DDF2E81C9CA0A500B41B78 /* Debug */,
@@ -511,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5DDF2EA1C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "TestAppDelUITests" */ = {
+		F5DDF2EA1C9CA0A500B41B78 /* Build configuration list for PBXNativeTarget "AutoLayoutStudyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5DDF2EB1C9CA0A500B41B78 /* Debug */,

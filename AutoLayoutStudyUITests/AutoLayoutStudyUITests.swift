@@ -1,6 +1,6 @@
 //
-//  TestAppDelUITests.swift
-//  TestAppDelUITests
+//  AutoLayoutStudyUITests.swift
+//  AutoLayoutStudyUITests
 //
 //  Created by Arslan Zagidullin on 18/03/16.
 //  Copyright © 2016 Arslan Zagidullin. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class TestAppDelUITests: XCTestCase {
+class AutoLayoutStudyUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

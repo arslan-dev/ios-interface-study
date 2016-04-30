@@ -1,6 +1,6 @@
 //
 //  ButtonWithLeftmostIcon.swift
-//  TestAppDel
+//  AutoLayoutStudy
 //
 //  Created by Arslan Zagidullin on 20/03/16.
 //  Copyright © 2016 Arslan Zagidullin. All rights reserved.
